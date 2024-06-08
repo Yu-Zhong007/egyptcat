@@ -43,16 +43,10 @@
     <link href="/logo.PNG" rel="apple-touch-icon" />
 
     <style>
-      @font-face {
-        font-family: "Milker";
-        /* Name of your font */
-        src: url("/Milker.otf") format("woff2"),
-          /* Path to your font file */ url("/Milker.otf") format("woff");
-        /* Fallback for older browser support */
-        /* Optionally, you can specify font weight and style */
-        font-weight: normal;
-        font-style: normal;
-      }
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Milker.ttf);
+}
 
       :root {
         --main2: #ffffff;
@@ -64,7 +58,7 @@
       .body {
         background-color: var(--main-3);
         color: var(--white);
-        font-family: Milker;
+        font-family: myFirstFont;
         text-shadow: 2px 2px #141700;
       }
 
